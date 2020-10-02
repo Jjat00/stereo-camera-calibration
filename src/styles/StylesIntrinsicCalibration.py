@@ -5,7 +5,7 @@ class StylesIntrinsicCalibration():
     def __init__(self, widget):
         super(StylesIntrinsicCalibration).__init__()
         self.widgetAcq = widget
-        self.theme2()
+        self.theme1()
         self.setIcons()
         self.formStyle()
 
@@ -16,7 +16,7 @@ class StylesIntrinsicCalibration():
         self.frameCamera = '#212121'
         self.primaryText = '#f5f5f5'
         self.secondaryText = '#757575'
-        self.progressBar = '#ee98fb'
+        self.progressBar = '#ff795e'
         self.lineEdit = '#263238'
 
     def theme2(self):

@@ -5,7 +5,6 @@ This is a simple desktop application to carry out the process of performing the 
 ## Stero Calibration Results
 
 ### Stero calibration rgb camera and depth camera
-![rgb-depth calibration](public/images/extrinsicRgbDepth.png)
 Homography matrix result:
 ```
 {
@@ -17,13 +16,10 @@ Homography matrix result:
 }
 ```
 ### Stero calibration thermal camera and rgb camera
-* before calibration
-
-![thermal-rgb calibration](public/images/extrinsicThermalRgb.png)
 * after calibration.
 Here it is necessary to do a pre-processing so that the pattern is detected by the two cameras.
 
-![thermal-rgb calibration](public/images/extrinsicThermalRgb2.png)
+![thermal-rgb calibration](public/images/extrinsicCalibration.png)
 Homography matrix result:
 ```
 {

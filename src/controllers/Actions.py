@@ -1,3 +1,5 @@
+
+from PySide2 import QtGui, QtWidgets
 from PySide2 import *
 import json
 import numpy as np

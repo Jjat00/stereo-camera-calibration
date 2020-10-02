@@ -56,6 +56,7 @@ class ExtrinsicCameraCalibration():
 
         self.homographyMatrix, _ = cv2.findHomography(
             self.pointsSrc[:len(self.pointsSrc)-1], self.pointsDst[:len(self.pointsDst)-1], cv2.RANSAC, 5.0)
+        print("homographyMatrix")
         print(self.homographyMatrix)
 
     def findCorners(self):

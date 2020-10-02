@@ -4,7 +4,7 @@ Author: Jaimen Aza <<Jjat userjjar00@gmail.com>>
 Date create: 21-august-2020
 Last moditication date : 21-august-2020
 """
-
+from PySide2 import *
 import sys
 import os
 
@@ -16,8 +16,6 @@ for nameDir in dirs:
     sys.path.append(path)
 
 
-import cv2
-from PySide2 import *
 from StylesIntrinsicCalibration import *
 from ViewExtrinsicCalibration import *
 
