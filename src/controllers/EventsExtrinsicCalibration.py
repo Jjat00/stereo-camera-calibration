@@ -4,11 +4,11 @@ from PySide2 import *
 import json
 import numpy as np
 import cv2
-from ExtrinsicCameraCalibration import *
+from ExtrinsicCameraCalibration import ExtrinsicCameraCalibration
 
-class Actions():
+class EventsExtrinsicCalibration():
     def __init__(self, window):
-        super(Actions).__init__()
+        super(EventsExtrinsicCalibration).__init__()
         self.window = window
         self.scalaImage = 60
         self.extrinsicCalibrationData = {}

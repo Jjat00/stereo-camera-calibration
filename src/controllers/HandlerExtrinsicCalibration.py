@@ -1,13 +1,13 @@
 from PySide2 import *
 import glob
-from Actions import *
-from ExtrinsicAcquisitionWidget import *
+from EventsExtrinsicCalibration import EventsExtrinsicCalibration
+from ExtrinsicAcquisitionWidget import ExtrinsicAcquisitionWidget
 
-class ControllerExtrinsicCalibration():
+class HandlerExtrinsicCalibration():
     def __init__(self, window):
-        super(ControllerExtrinsicCalibration).__init__()
+        super(HandlerExtrinsicCalibration).__init__()
         self.window = window
-        self.action = Actions(self.window)
+        self.action = EventsExtrinsicCalibration(self.window)
         self.whichImage = 0
         self.loadPatter = False
         self.save = False

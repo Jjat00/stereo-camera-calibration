@@ -1,9 +1,10 @@
 from PySide2 import *
 relativePathIcons = '../public/icons/'
 
-class StylesIntrinsicCalibration():
+
+class StylesExtrinsicCalibration():
     def __init__(self, widget):
-        super(StylesIntrinsicCalibration).__init__()
+        super(StylesExtrinsicCalibration).__init__()
         self.widgetAcq = widget
         self.theme1()
         self.setIcons()

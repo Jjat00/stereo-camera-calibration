@@ -4,7 +4,7 @@ import cv2
 import time
 import os
 import threading
-from Filters import *
+from Filters import FilterImage
 
 class ExtrinsicCameraCalibration():
     def __init__(self, window):

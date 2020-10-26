@@ -19,7 +19,6 @@ Homography matrix result:
 * after calibration.
 Here it is necessary to do a pre-processing so that the pattern is detected by the two cameras.
 
-![thermal-rgb calibration](public/images/extrinsicCalibration.png)
 Homography matrix result:
 ```
 {
@@ -36,9 +35,7 @@ Homography matrix result:
 * Ubuntu +18.04
 * **[libfreenect](https://github.com/OpenKinect/libfreenect)**
 * Python3.7
-* Opencv-python
-* Numpy
-* Pyside2
+
 
 **[libfreenect](https://github.com/OpenKinect/libfreenect)** is necessary for enter the microsoft kinect camera. If you are using a different camera you need to modify the file *DataAcquisition.py* and ready, you can use the application.
 
@@ -48,6 +45,6 @@ Homography matrix result:
 ```
 ## Run Project
 ```
-    python3.7 src/ExtrinsicCalibrationWidget.py
+    python3.7 src/ExtrinsicCalibrationApp.py
 ```
 
